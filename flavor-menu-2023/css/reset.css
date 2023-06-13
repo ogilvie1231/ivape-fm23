@@ -1,0 +1,53 @@
+body {
+    margin: auto;
+    max-width: 75%;
+    background: url(../images/paper-back.png)
+}
+
+h2 {
+    padding: 2%;  
+    /* border: 1px solid black; */
+    /* background-color: rgb(209, 140, 55); */
+    /* color: white; */
+    width: 100%;
+    text-align: center;
+}
+
+#instruct {
+    padding: 2%;
+    /* width: 100%; */
+}
+
+.mainBody {
+    background-color: rgb(230, 230, 230);
+    /* opacity: .8; */
+}
+
+#winLoss {
+
+    width: 100%;
+    
+    padding: 2%;
+    float: left;
+    margin-top: 1.5%;
+    /* border: 1px solid black; */
+    
+    
+}
+
+.clrFx {
+    clear: both;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+};
+
+
+#randomNumber{
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+    font-size: 32px;
+    text-align: center;
+}
