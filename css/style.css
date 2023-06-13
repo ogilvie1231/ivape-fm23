@@ -52,8 +52,8 @@
   font-size: larger;
 }
 
-.imgDiv {
-}
+/* .imgDiv {
+} */
 
 div > img {
   max-width: 100%;
@@ -63,4 +63,34 @@ div > img {
 
 .topImg {
   padding-top: 15%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .introLabel {
+    padding-top: 9%;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .introLabel {
+    padding-top: 16%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .introLabel {
+    padding-top: 26%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .introLabel {
+    padding-top: 29%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .introLabel {
+    padding-top: 34%;
+  }
 }
