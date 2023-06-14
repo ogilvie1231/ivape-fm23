@@ -1,3 +1,7 @@
+body {
+  padding-top: 60px;
+}
+
 .backGround {
   background-color: #f8f6f0;
 }
@@ -22,6 +26,7 @@
 .navbar {
   position: fixed;
   z-index: 2;
+  top: 0;
 }
 
 .introText {
@@ -38,11 +43,10 @@
 
 .introLabel {
   background-color: rgba(204, 155, 202, 0.747);
-  padding-top: 8%;
-  max-width: 100%;
+  padding-top: 4%;
   position: fixed;
   z-index: 1;
-  /* width: 100%; */
+  width: 100%;
   text-align: center;
   font-family: "Dancing Script", cursive;
 }
@@ -50,6 +54,7 @@
 .navText {
   font-family: "Dancing Script", cursive;
   font-size: larger;
+  color: rgb(84, 106, 234) !important;
 }
 
 /* .imgDiv {
@@ -65,32 +70,53 @@ div > img {
   padding-top: 15%;
 }
 
-
 @media only screen and (max-width: 1024px) {
   .introLabel {
-    padding-top: 9%;
+    padding-top: 4%;
   }
 }
 
+@media only screen and (max-width: 991px) {
+  .introLabel {
+    padding-top: 8%;
+  }
+
+  .topImg {
+    padding-top: 20%;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   .introLabel {
-    padding-top: 16%;
+    padding-top: 9%;
+  }
+  .topImg {
+    padding-top: 23%;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  .introLabel {
+    padding-top: 15%;
+  }
+  .topImg {
+    padding-top: 30%;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .introLabel {
-    padding-top: 26%;
+    padding-top: 13%;
   }
 }
 @media only screen and (max-width: 375px) {
   .introLabel {
-    padding-top: 29%;
+    padding-top: 14%;
   }
 }
 @media only screen and (max-width: 320px) {
   .introLabel {
-    padding-top: 34%;
+    padding-top: 16%;
   }
 }
